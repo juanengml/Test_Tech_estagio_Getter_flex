@@ -17,8 +17,8 @@ data = { 'size': 100 }
 Nessa etapa você deve receber o dataframe e salvar seu CSV usando a função do pandas (to_csv)
 
 
-### Use o Codigo Main.py 
+### Use o Template
 
-Use o codigo da main.py de template e gere seu codigo no replit.com 
+Use o código da main.py de template e gere seu codigo no replit.com 
 
 https://github.com/juanengml/test_tech_estagio_getter_flex/blob/main/main.py
