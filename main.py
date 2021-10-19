@@ -1,0 +1,37 @@
+# TEST TECH PARA VAGA DE ESTAGIO GETTER - FLEX
+# DESAFIO: 
+#   Crie uma Rotina que busque os dados da url abaixo
+#   https://random-data-api.com/api/app/random_app 
+#   busque 100 registros, salve os dados em um csv
+#   
+
+from requests import get
+import pandas as pd 
+
+endpoint = "https://random-data-api.com/api/app/random_app"
+
+def busca_dados(qtd_registros):
+    # qtd_registros: 100 (int)
+    # Codigo para fazer a requisição da api
+    # use GET para buscar e passa como Paramentro 
+    # size = 100
+    # retorne um dataframe 
+    
+    return df
+
+def exporte_sua_base(filename,base):
+    # filename: base.csv (str) 
+    # base: dataframe (pandas)
+    # use o metodo to_csv do pandas
+    # para gerar sua base 
+    print("... Salvo {} ...".format(filename))
+
+def main():
+  print("... Buscando dados ...")
+  base = busca_dados(qtd_registros=100)
+  print("... Salvando dados ...")
+  exporte_sua_base("base_app.csv",base)
+
+
+if __name__ == "__main__":
+     main()
